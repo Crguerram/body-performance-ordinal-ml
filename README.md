@@ -23,7 +23,7 @@ A diferencia de la clasificación multiclase estándar,la estructura ordinal se 
 - **Random Forest Classifier**  
    Baseline no lineal que ignora la estructura ordinal
 - **XGBoost with Ordinal Objective**  
-  Impplementado usandommodelos de umbral acumulativo  \(P(y > k)\) para preservar el ordenamiento de clases.
+  Implementado usando modelos de umbral acumulativo  \(P(y > k)\) para preservar el ordenamiento de clases.
 
 ## 📈 Métricas de evaluación
 Dada la naturaleza ordinal del problema, se usaron las siguientes métricas:
